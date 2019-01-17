@@ -1,12 +1,14 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
   var animals = $("#animals").val();
-  var turtles = $(".turtles");
 
-  $(".animals").text(animals);
-  $("#turtles").text(turtles);
+  $(".animals").text(animals)
+
   $("#results").show();
 
   event.preventDefault();
+  if (animals === turtle) {
+    $(".turtles").show();
+  }
   });
 });

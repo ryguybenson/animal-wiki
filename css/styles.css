@@ -1,11 +1,8 @@
-.turtles, .snakes, .insects {
-  display: none;
-}
 
 .container {
   margin-top: 10%;
 }
 
-#result {
+#results {
   display: none;
 }
